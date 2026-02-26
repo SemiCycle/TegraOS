@@ -1,5 +1,6 @@
 # TegraOS
 Tegra OS is a Linux distribution based on Arch Linux made specifically for the Nvidia Tegra 4 processor
+_______________________________________________________________________________________________________________________________________________
 ![image (3) (1)](https://github.com/user-attachments/assets/bd073f34-981f-4eaa-9c30-48c49d1e69e2)
 <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 150" width="800" height="150">
 	<defs>
@@ -9,5 +10,6 @@ Tegra OS is a Linux distribution based on Arch Linux made specifically for the N
 	<use id="Background" href="#img1" x="0" y="0"/>
 	<use id="d72ansg-3543519e-35ca-4d33-b0ca-e7b6bad37235" href="#img2" x="311" y="31"/>
 </svg>
+_______________________________________________________________________________________________________________________________________________
 
-I bought an Nvidia Shield Portable from eBay, planning to put Linux on it for tinkering, gaming on the go, and for learning purposes. I found a repository with a guide about how to install Arch Linux with KDE Plasma on the Nvidia Shield portable, except this repository was a little outdated and was archived. It also lacked HDMI support and touchscreen support as there's lacl of drivers for those components. I followed that guide and some other guides to unlock the bootloader and root the device, I have an extra 128 GB MicroSDXC card to install Arch on, except I don't have an SD reader and adapter, so I tried to use ADB tools to format the card to 
+I bought an Nvidia Shield Portable from eBay, planning to put Linux on it for tinkering, gaming on the go, and for learning purposes. I found a repository with a guide about how to install Arch Linux with KDE Plasma on the Nvidia Shield portable, except this repository was a little outdated and was archived. It also lacked HDMI support and touchscreen support as there's lacl of drivers for those components. I followed that guide and some other guides to unlock the bootloader and root the device, I have an extra 128 GB MicroSDXC card to install Arch on, except I don't have an SD reader and adapter, so I tried to use ADB tools to format the card to ext4 format, except it didn't have the neccessary command to do that, so I was building a Linux initramfs to quickly format the card to ext4. In the process of doing that I extracted the kernel with ADB, which gave me the idea to use that kernel to make a Linux distribution with all the proper drivers and software to get full compaitbility with Nvidia Shield Portable as well as good updates. I'm going to be working on and uploading the initramfs, different tiers of the full OS (Command Line, stanard install, extra tools) and provide a guide as well as document my time working on this!
