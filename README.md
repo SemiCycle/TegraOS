@@ -9,3 +9,5 @@ Tegra OS is a Linux distribution based on Arch Linux made specifically for the N
 	<use id="Background" href="#img1" x="0" y="0"/>
 	<use id="d72ansg-3543519e-35ca-4d33-b0ca-e7b6bad37235" href="#img2" x="311" y="31"/>
 </svg>
+
+I bought an Nvidia Shield Portable from eBay, planning to put Linux on it for tinkering, gaming on the go, and for learning purposes. I found a repository with a guide about how to install Arch Linux with KDE Plasma on the Nvidia Shield portable, except this repository was a little outdated and was archived. It also lacked HDMI support and touchscreen support as there's lacl of drivers for those components. I followed that guide and some other guides to unlock the bootloader and root the device, I have an extra 128 GB MicroSDXC card to install Arch on, except I don't have an SD reader and adapter, so I tried to use ADB tools to format the card to 
